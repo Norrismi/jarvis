@@ -4,7 +4,7 @@ import './topNav.css'
 const TopNav = () => {
     return (
 
-        <div className="navbar  navbar-expand-lg navbar-light bg-light sticky-top">
+        <div className="navbar  navbar-expand-lg navbar-dark bg-dark sticky-top">
 
             <button className="navbar-toggler" type="button" data-toggle="collapse"
                 data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01"

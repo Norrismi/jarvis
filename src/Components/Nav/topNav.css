@@ -10,9 +10,10 @@ a.navbar-brand {
     margin-left: 30px;
 }
 
-.narbar{
-    border-bottom: 1px solid black ;
-}
+/* div.narbar.navbar{
+   color: darkgray;
+   background-color: #e3f2fd !important;
+} */
 
 
 .nav-bar_big-logo{
