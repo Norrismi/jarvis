@@ -1,8 +1,92 @@
+.home_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: 850px; */
+
+    min-height: 2000px;
+}
+
+
 .home_carousel{
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
     height: auto;
     width: 850px;
     margin-top: 20px
 }
+
+.home_intro_container{
+    border-bottom: 1px solid lightgrey;
+}
+
+.address{
+    padding-bottom: 20px;
+}
+
+.stat_row{
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 850px;
+    
+}
+
+.price_container,
+.bed_container,
+.bath_container,
+.square-feet_container{
+    display: flex;
+    flex-direction: column;
+}
+
+#stat_number{
+    font-size: 20px;
+}
+
+#stat_name{
+    color: grey;
+}
+
+.home_paragraph-container{
+   
+    padding-top: 30px;
+    width: 850px;
+}
+
+
+.home_stat-container-two{
+    /* display: flex;
+    flex-direction: row; */
+}
+
+.home_stat-title{
+    margin: 20px 0 20px 0;
+    font-size: 18px;
+}
+
+.stat-two-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 850px;
+}
+
+.status,
+.prop-type,
+.year-built,
+.community,
+.hoa,
+.style,
+.lot-size{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 375px;
+    margin: 20px 0 20px 0;
+    font-size: 18px;
+    /* flex: 2 1 auto; */
+}
+
+
