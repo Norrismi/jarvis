@@ -24,7 +24,7 @@ const TopNav = () => {
                         <a className="nav-link" href="/">Overview </a>
                     </li>
                     <li className="nav-item active">
-                        <a className="nav-link" href="/details">Property Details</a>
+                        <a className="nav-link" href="/price-details">Price Details</a>
                     </li>
                     {/* <li className="nav-item active">
                         <a className="nav-link" href="/contact">Contact</a>
