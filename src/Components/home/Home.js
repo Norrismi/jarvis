@@ -1,6 +1,7 @@
 import React from 'react';
 import JarvisCarousel from '../carousel/carousel'
 import './home.css'
+import ContactForm  from '../contactForm/ContactForm'
 
 const Home = () => {
     return (
@@ -75,7 +76,7 @@ const Home = () => {
                     </a>
          
                 </p>
-                <div class="collapse" id="collapseExample">
+                <div className="collapse" id="collapseExample">
                     <div>
                     Aliquam faucibus purus in massa tempor nec feugiat nisl. Iaculis urna id volutpat lacus laoreet. Sed enim ut sem
                     viverra aliquet eget sit. Massa id neque aliquam vestibulum morbi. Convallis posuere morbi leo urna. Molestie at
@@ -318,7 +319,7 @@ const Home = () => {
 
 
 
-
+            <ContactForm/>
 
 
         </div>
