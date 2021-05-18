@@ -1,0 +1,49 @@
+.contact-form_container{
+margin-bottom: 350px;
+}
+
+
+.contact-form{
+  
+
+}
+
+
+input,
+textarea{
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    border: 1px solid lightgrey;
+    padding: 7px;
+    color: black;
+
+ 
+}
+
+.form-name,
+.form-phone,
+.form-email,
+.form-message{
+    margin: 0 0 0 0;
+    margin-top: 15px;
+}
+
+
+/* 
+textarea{
+    margin-top: 10px;
+} */
+
+
+.contact-form_title{
+    font-size: 1.75em;
+    padding-bottom: 10px;
+}
+
+.contact-form_button{
+    border: 1px solid lightgrey;
+    padding: 5px;
+    width: 200px;
+    margin-top: 15px;
+}
