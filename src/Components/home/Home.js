@@ -2,6 +2,7 @@ import React from 'react';
 import JarvisCarousel from '../carousel/carousel'
 import './home.css'
 import ContactForm  from '../contactForm/ContactForm'
+import FormControl from '../contactForm/FormControl'
 
 const Home = () => {
     return (
@@ -319,7 +320,7 @@ const Home = () => {
 
 
 
-            <ContactForm/>
+            <FormControl/>
 
 
         </div>
