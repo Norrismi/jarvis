@@ -3,12 +3,6 @@ margin-bottom: 350px;
 }
 
 
-.contact-form{
-  
-
-}
-
-
 input,
 textarea{
     margin-left: auto;
@@ -30,11 +24,6 @@ textarea{
 }
 
 
-/* 
-textarea{
-    margin-top: 10px;
-} */
-
 
 .contact-form_title{
     font-size: 1.75em;
@@ -46,4 +35,9 @@ textarea{
     padding: 5px;
     width: 200px;
     margin-top: 15px;
+}
+
+.formError{
+    color: red;
+    padding: 5px 0 0 15px;
 }

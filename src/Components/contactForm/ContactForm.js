@@ -1,5 +1,4 @@
 import React from 'react';
-import { useAlert } from "react-alert";
 import './contactForm.css'
 import useForm from './useForm'
 import validate from './Validation'
@@ -11,9 +10,6 @@ const ContactForm = ({submitForm}) => {
 
     const { handleChange, handleSubmit, values, errors } = useForm(submitForm, validate)
 
-
-    const alert = useAlert();
-    // let {formErrors} = this.state
 
     return (
         <div className="contact-form_container">
@@ -28,7 +24,7 @@ const ContactForm = ({submitForm}) => {
                         onChange={handleChange}
                         placeholder="First and Last Name"
                     />
-                     {errors.name && <div>{errors.name}</div>}
+                     {errors.name && <div className="formError">{errors.name}</div>}
                 </div>
        
                 <div className="form-phone">
@@ -49,8 +45,8 @@ const ContactForm = ({submitForm}) => {
                         onChange={handleChange}
                         placeholder="Name@email.com"
                         aria-describedby="emailHelp"
-                    />
-                   {errors.email && <div>{errors.email}</div>}
+                        />
+                        {errors.email && <div className="formError">{errors.email}</div>}
                 </div>
 
                 <div className="form-message">
