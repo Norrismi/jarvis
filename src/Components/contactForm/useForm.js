@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { db } from '../../firebase'
+import firebase from "firebase/app";
 
 
 const useForm = (callback, validate) => {
@@ -26,7 +27,8 @@ const useForm = (callback, validate) => {
         setErrors(validate(values));
 
         db.collection('submissions').add({
-            ...values
+            ...values,
+            messageSent: firebase.firestore.FieldValue.serverTimestamp()
         })
 
 

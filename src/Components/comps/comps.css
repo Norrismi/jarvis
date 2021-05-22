@@ -1,0 +1,47 @@
+.comps_container{
+    width: 850px;
+}
+
+.comps_title{
+
+    font-size: 1.75em;
+    padding-bottom: 10px;
+}
+
+
+.comps_cards-container{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.comps_card{
+    width: 20rem;
+    margin-right: 7px;
+
+
+    margin-bottom: 50px;
+}
+
+
+.comps_price{
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+.comps_row-container{
+    display: flex;
+   margin-top: 7px;
+}
+
+.comps_stat{
+    margin-right: 7px;
+    color: grey;
+    font-size: 14px;
+}
+
+.comps_address{
+    margin-top: 7px;
+    color: grey;
+    font-size: 14px;
+}

@@ -1,5 +1,6 @@
 import React from 'react';
 import JarvisCarousel from '../carousel/carousel'
+import Comps from '../comps/Comps'
 import './home.css'
 import FormControl from '../contactForm/FormControl'
 
@@ -119,8 +120,8 @@ const Home = () => {
                         <div className="stat-column">
 
                             <div className="hoa">
-                                <div id='stat_name'>HOA Dues</div>
-                                <div>$000.00/month</div>
+                                <div id='stat_name'>Featured</div>
+                                <div>Gated Community</div>
                                 
                             </div>
                             <div className="style">
@@ -310,6 +311,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            <Comps/>
             <FormControl/>
 
         </div>
