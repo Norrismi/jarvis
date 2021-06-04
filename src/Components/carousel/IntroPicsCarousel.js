@@ -5,7 +5,7 @@ import one from '../../Assets/carouselPics/one.png'
 import two from '../../Assets/carouselPics/two.jpg'
 import three from '../../Assets/carouselPics/three.jpg'
 
-class JarvisCarousel extends Component {
+class introPicsCarousel extends Component {
     render() {
         return (
             <Carousel>
@@ -27,4 +27,4 @@ class JarvisCarousel extends Component {
 }
 
 
-export default JarvisCarousel
+export default introPicsCarousel

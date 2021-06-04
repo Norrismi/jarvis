@@ -1,6 +1,7 @@
 import React from 'react';
-import JarvisCarousel from '../carousel/carousel'
+import IntroPicsCarousel from '../carousel/IntroPicsCarousel'
 import Comps from '../comps/Comps'
+import CompsCarousel from '../carousel/compsCarousel/CompsCarousel'
 import './home.css'
 import FormControl from '../contactForm/FormControl'
 
@@ -8,7 +9,7 @@ const Home = () => {
     return (
         <div className='home_container'>
             <div className='home_carousel'>
-                <JarvisCarousel />
+                <IntroPicsCarousel />
             </div>
 
             <div className='home_intro_container'>
@@ -312,6 +313,7 @@ const Home = () => {
                 </div>
             </div>
             <Comps/>
+            {/* <CompsCarousel/> */}
             <FormControl/>
 
         </div>
