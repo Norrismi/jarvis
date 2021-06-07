@@ -1,7 +1,7 @@
 import React from 'react';
 import IntroPicsCarousel from '../carousel/IntroPicsCarousel'
 import Comps from '../comps/Comps'
-import CompsCarousel from '../carousel/compsCarousel/CompsCarousel'
+import IntroStats from '../introStats/IntroStats'
 import './home.css'
 import FormControl from '../contactForm/FormControl'
 
@@ -67,8 +67,8 @@ const Home = () => {
 
             <div className="home_paragraph-container">
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Massa enim nec dui nunc mattis enim ut tellus. Eu non diam phasellus vestibulum lorem.
+                Experience coastal living in a single family home located in the gated
+                    community of Jarvis Creek Club.
                     
                 </p>
 
@@ -80,65 +80,18 @@ const Home = () => {
                 </p>
                 <div className="collapse" id="collapseExample">
                     <div>
-                    Aliquam faucibus purus in massa tempor nec feugiat nisl. Iaculis urna id volutpat lacus laoreet. Sed enim ut sem
-                    viverra aliquet eget sit. Massa id neque aliquam vestibulum morbi. Convallis posuere morbi leo urna. Molestie at
-                    elementum eu facilisis sed odio morbi. Tempus iaculis urna id volutpat. Sit amet porttitor eget dolor morbi non.
-                    Dolor sed viverra ipsum nunc aliquet bibendum. Laoreet id donec ultrices tincidunt arcu non sodales neque. Fermentum
-                    odio eu feugiat pretium. Sit amet consectetur adipiscing elit pellentesque habitant morbi.
+                     This home offers brightness with a large spacious
+                    living area accented with plantation shutters. Hardwood floors and stairway enhance the
+                    homes many features. Tiled kitchen floor with granite countertops and designer
+                    appliances round out this open concept main level. Upstairs includes 3 BD, Master BD
+                    w/ensuite &amp; walk-in closet. Two covered decks &amp; patio overlook pond w/fountain for
+                    your relaxation. Extensive landscape surrounding the home makes it a must see.
                     </div>
                 </div>
 
             </div>
 
-            <div className="home_stat-container-two">
-                    <div className="home_stat-title">
-                        <b>Home Facts</b>
-                    </div>
-                    <div className="stat-two-row">
-                        <div className="stat-column">
-
-                            <div className="status">
-                                <div id='stat_name'>Status</div>
-                                <div>Active Off Market</div>
-                                
-                            </div>
-                            <div className="prop-type">
-                                <div id='stat_name'>Property Type</div>
-                                <div>Single Family Residential</div>
-                              
-                            </div>
-                            <div className="year-built">
-                                <div id='stat_name'>Year Built</div>
-                                <div>0000</div>
-                               
-                            </div>
-                            <div className="community">
-                                <div id='stat_name'>Community</div>
-                                <div>Jarvis Creek Club</div>
-                                
-                            </div>
-                        </div>
-                        <div className="stat-column">
-
-                            <div className="hoa">
-                                <div id='stat_name'>Featured</div>
-                                <div>Gated Community</div>
-                                
-                            </div>
-                            <div className="style">
-                                <div id='stat_name'>Style</div>
-                                <div>House near the beach</div>
-                                
-                            </div>
-                            <div className="lot-size">
-                                <div id='stat_name'>Lot Size</div>
-                                <div>00000 Sq. Ft.</div>
-                                
-                            </div>
-                        </div>
-                    </div>
-            </div>
-
+            <IntroStats/>
 
             <div className="card home_card">
                 <div className="card-header" id='card-title'>
@@ -313,7 +266,6 @@ const Home = () => {
                 </div>
             </div>
             <Comps/>
-            {/* <CompsCarousel/> */}
             <FormControl/>
 
         </div>
