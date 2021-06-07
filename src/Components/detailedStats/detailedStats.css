@@ -1,0 +1,29 @@
+/* features card */
+
+#card-title{
+    font-weight: bold;
+}
+
+#card-li{
+    font-size: 14px;
+}
+
+.home_card{
+    width: 850px;
+    margin-bottom: 100px;
+
+}
+
+
+.features{
+    display: flex;
+    justify-content: space-between;
+}
+
+.features-column-one{
+    width: 375px;
+}
+
+.features-column-two{
+    width: 500px;
+}

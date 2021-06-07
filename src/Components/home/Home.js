@@ -2,6 +2,7 @@ import React from 'react';
 import IntroPicsCarousel from '../carousel/IntroPicsCarousel'
 import Comps from '../comps/Comps'
 import IntroStats from '../introStats/IntroStats'
+import DetailedStats from '../detailedStats/DetailedStats'
 import './home.css'
 import FormControl from '../contactForm/FormControl'
 
@@ -93,179 +94,10 @@ const Home = () => {
 
             <IntroStats/>
 
-            <div className="card home_card">
-                <div className="card-header" id='card-title'>
-                    Interior Features
-                </div>
-                <div className="card-body">
+            <DetailedStats/>
 
-                    <div className="features">
-
-                        <div className="features-column-one">
-                            <div id='card-title'>Bathroom Information</div>
-                                <ul>
-                                    <li id='card-li'># of Full Bathrooms: 2</li>
-                                </ul>
-                            <div id='card-title'>Room Information</div>
-                                <ul>
-                                    <li id='card-li'># of Rooms (Total): 5</li>
-                                </ul>
-
-                            <div id='card-title'>Laundry Information</div>
-                                <ul>
-                                    <li id='card-li'>Features: Laundry Room</li>
-                                </ul>
-
-                        </div>
-
-                        <div className="features-column-two">
-                            <div id='card-title'>Equipment</div>
-                                <ul>
-                                    <li id='card-li'>Appliances: Some Electric Appliances, Dishwasher, Electric Water Heater, Disposal, Oven, Plumbed For Ice Maker, Range, Range Hood</li>
-                                </ul>
-
-                            <div id='card-title'>Interior Features</div>
-                                <ul>
-                                    <li id='card-li'>Window Features: Double Pane Windows</li>
-                                    <li id='card-li'>Other Features: Attic, Breakfast Bar, Breakfast Area, Tray Ceiling(s), Ceiling Fan(s), Double Vanity, Garden Tub/Roman Tub, High Ceilings, Main Level Master, Master Suite, Pantry, Pull Down Attic Stairs, Separate Shower</li>
-                                </ul>
-
-                        </div>
-                    </div>
-                </div>
-
-
-                <div className="card-header" id='card-title'>
-               Parking / Garage
-                </div>
-                <div className="card-body">
-
-                    <div className="features">
-
-                        <div className="features-column-one">
-                            <div id='card-title'>Garage/Carport Information</div>
-                                <ul>
-                                    <li id='card-li'>Has Garage</li>
-                                    <li id='card-li'># of Garage Spaces: 2</li>
-                                </ul>
-
-                        </div>
-
-                        <div className="features-column-two">
-                            <div id='card-title'>Parking</div>
-                                <ul>
-                                    <li id='card-li'>Features: Attached</li>
-                                </ul>
-
-                        </div>
-                    </div>
-                </div>
-
-
-                <div className="card-header" id='card-title'>
-                    Homeowners Association, School / Neighborhood, Location Details
-                </div>
-                <div className="card-body">
-
-                    <div className="features">
-
-                        <div className="features-column-one">
-                            <div id='card-title'>HOA Information</div>
-                                <ul>
-                                    <li id='card-li'>Has Home Owners Association</li>
-                                    <li id='card-li'>Association Fee: $*********</li>
-                                    <li id='card-li'>Annually</li>
-                                </ul>
-                            <div id='card-title'>School</div>
-                                <ul>
-                                    <li id='card-li'>Elementary School: Gould</li>
-                                    <li id='card-li'>Middle Or Junior School: West Chatham</li>
-                                    <li id='card-li'>High School: Beach</li>
-                                </ul>
-
-                        </div>
-
-                        <div className="features-column-two">
-                            <div id='card-title'>Community Information</div>
-                                <ul>
-                                    <li id='card-li'>Community Features: Clubhouse, Community Pool, Shopping, Street Lights, Sidewalks, Trails/Paths</li>
-                                </ul>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div className="card-header" id='card-title'>
-                Utilities
-                </div>
-                <div className="card-body">
-
-                    <div className="features">
-
-                        <div className="features-column-one">
-                            <div id='card-title'>Utility Information</div>
-                                <ul>
-                                    <li id='card-li'>Utilities: Cable Available, Underground Utilities</li>
-                                    <li id='card-li'>Sewer: Public Sewer</li>
-                                    <li id='card-li'>Water Source: Public</li>
-                                </ul>
-                      
-
-                        </div>
-
-                        <div className="features-column-two">
-                            <div id='card-title'>Heating & Cooling</div>
-                                <ul>
-                                    <li id='card-li'>Has Cooling</li>
-                                    <li id='card-li'>Cooling: Central Air, Electric</li>
-                                    <li id='card-li'>Has Heating</li>
-                                    <li id='card-li'>Heating: Central, Electric</li>
-                                </ul>
-
-                    
-
-                        </div>
-                    </div>
-                </div>
-
-                <div className="card-header" id='card-title'>
-                Property / Lot Details
-                </div>
-                <div className="card-body">
-
-                    <div className="features">
-
-                        <div className="features-column-one">
-                            <div id='card-title'>Lot Information</div>
-                                <ul>
-                                    <li id='card-li'>Lot Size Area: 0.19</li>
-                                    <li id='card-li'>Lot Size Acres: 0.19</li>
-                                    <li id='card-li'>Lot Size Dimensions: 60 x 110</li>
-                                    <li id='card-li'>Lot Features: Back Yard, Private</li>
-                                    <li id='card-li'>Road Surface Type: Asphalt</li>
-                                </ul>
-                      
-
-                        </div>
-
-                        <div className="features-column-two">
-                            <div id='card-title'>Property Information</div>
-                                <ul>
-                                    <li id='card-li'>Has View</li>
-                                    <li id='card-li'>Foundation Details: Slab</li>
-                                    <li id='card-li'>Development Status: Under Construction</li>
-                                    <li id='card-li'>Under Construction</li>
-                                    <li id='card-li'>Ownership: Homeowner/Owner</li>
-                                    <li id='card-li'>Is Human Modified</li>
-                                </ul>
-
-                    
-
-                        </div>
-                    </div>
-                </div>
-            </div>
             <Comps/>
+            
             <FormControl/>
 
         </div>

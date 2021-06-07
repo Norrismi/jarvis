@@ -56,69 +56,13 @@
 }
 
 
-.home_stat-container-two{
-    /* display: flex;
-    flex-direction: row; */
-    margin-bottom: 20px;
-}
-
-.home_stat-title{
-    margin: 20px 0 20px 0;
-    font-size: 18px;
-}
-
-.stat-two-row{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 850px;
-}
-
-.status,
-.prop-type,
-.year-built,
-.community,
-.hoa,
-.style,
-.lot-size{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 375px;
-    margin: 20px 0 20px 0;
-    font-size: 18px;
-    /* flex: 2 1 auto; */
-}
 
 
 
-/* features card */
-
-#card-title{
-    font-weight: bold;
-}
-
-#card-li{
-    font-size: 14px;
-}
-
-.home_card{
-    width: 850px;
-    margin-bottom: 100px;
-
-}
 
 
-.features{
-    display: flex;
-    justify-content: space-between;
-}
 
-.features-column-one{
-    width: 375px;
-}
 
-.features-column-two{
-    width: 500px;
-}
+
+
 
