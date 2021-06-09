@@ -8,7 +8,7 @@ import three from '../../Assets/carouselPics/three.jpg'
 class introPicsCarousel extends Component {
     render() {
         return (
-            <Carousel>
+            <Carousel className='carousel'>
                 <div>
                     <img src={one} alt='one' />
                     {/* <p className="legend">Legend 1</p> */}

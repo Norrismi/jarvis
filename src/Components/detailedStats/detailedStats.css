@@ -27,3 +27,21 @@
 .features-column-two{
     width: 500px;
 }
+
+
+@media (min-width: 280px) {
+   
+    .home_card{
+        width: 350px;
+        margin-bottom: 50px;
+    
+    }
+    .features-column-one{
+        width: 375px;
+    }
+    
+    .features-column-two{
+        width: 400px;
+    }
+
+}

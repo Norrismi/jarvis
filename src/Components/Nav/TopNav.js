@@ -20,14 +20,8 @@ const TopNav = () => {
             <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
 
                 <ul className="navbar-nav ml-auto mt-2 mt-lg-0">
-                    <li className="nav-item active">
-                        <a className="nav-link" href="/">Overview </a>
-                    </li>
-                    <li className="nav-item active">
-                        <a className="nav-link" href="/price-details">Price Details</a>
-                    </li>
                     {/* <li className="nav-item active">
-                        <a className="nav-link" href="/contact">Contact</a>
+                        <a className="nav-link" href="/">Overview </a>
                     </li> */}
 
                 </ul>

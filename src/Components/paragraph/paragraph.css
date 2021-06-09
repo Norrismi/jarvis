@@ -1,0 +1,40 @@
+.paragraph_intro{
+    padding-top: 20px;
+    width: 850px;
+}
+
+
+.paragraph_expanded{
+    padding-bottom: 20px;
+    width: 850px;
+    display: inline-block;
+}
+
+
+.paragraph_read-link{
+    color: #2580A2;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a.paragraph_read-link{
+    text-decoration: none;
+}
+a.paragraph_read-link:hover{
+    text-decoration: none;
+    color: #2580A2;
+}
+
+.paragraph_read-h5{
+    padding-top: 10px;
+
+}
+
+@media (min-width: 280px) {
+   
+    .paragraph_intro,
+    .paragraph_expanded{
+        width: 345px;
+    }
+
+}

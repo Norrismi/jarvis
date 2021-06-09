@@ -5,6 +5,8 @@ import IntroStats from '../introStats/IntroStats'
 import DetailedStats from '../detailedStats/DetailedStats'
 import './home.css'
 import FormControl from '../contactForm/FormControl'
+import Map from '../map/Map'
+import Paragraph from '../paragraph/Paragraph'
 
 const Home = () => {
     return (
@@ -65,39 +67,17 @@ const Home = () => {
                 </div>
             </div>
 
+            {/* <Map/> */}
 
-            <div className="home_paragraph-container">
-                <p>
-                Experience coastal living in a single family home located in the gated
-                    community of Jarvis Creek Club.
-                    
-                </p>
 
-                <p>
-                    <a  data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-                        Continue reading
-                    </a>
-         
-                </p>
-                <div className="collapse" id="collapseExample">
-                    <div>
-                     This home offers brightness with a large spacious
-                    living area accented with plantation shutters. Hardwood floors and stairway enhance the
-                    homes many features. Tiled kitchen floor with granite countertops and designer
-                    appliances round out this open concept main level. Upstairs includes 3 BD, Master BD
-                    w/ensuite &amp; walk-in closet. Two covered decks &amp; patio overlook pond w/fountain for
-                    your relaxation. Extensive landscape surrounding the home makes it a must see.
-                    </div>
-                </div>
-
-            </div>
+            <Paragraph/>
 
             <IntroStats/>
 
             <DetailedStats/>
 
             <Comps/>
-            
+
             <FormControl/>
 
         </div>

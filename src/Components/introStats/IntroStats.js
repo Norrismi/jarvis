@@ -52,7 +52,7 @@ const IntroStats = () => {
             </div>
 
             <div className="home_stat-title">
-                <b>Featured Destination Distances</b>
+                <b>Featured Destination Distances from 15 Jarvis Creek Ln.</b>
             </div>
             <div className="stat-two-row">
                 <div className="stat-column">

@@ -3,7 +3,7 @@
 }
 
 .home_stat-title{
-    margin: 20px 0 20px 0;
+    margin: 50px 0 20px 0;
     font-size: 18px;
 }
 
@@ -23,4 +23,30 @@
     margin: 20px 0 20px 0;
     font-size: 18px;
     /* flex: 2 1 auto; */
+}
+
+@media (min-width: 280px) {
+   
+    .stat-two-row{
+      
+        flex-direction: column;
+    
+        width: 200px;
+        justify-content: center;
+    }
+
+    .stat_container{
+     
+        flex-direction: row;
+        justify-content: space-between;
+        width: 345px;
+        margin: 20px 0 20px 0;
+        font-size: 18px;
+       
+    }
+
+    .home_stat-container-two{
+        padding-left: 5px;
+     
+    }
 }

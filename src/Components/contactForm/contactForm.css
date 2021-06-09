@@ -1,10 +1,10 @@
-.contact-form_container{
-margin-bottom: 350px;
+.contact-form_container {
+    margin-bottom: 350px;
 }
 
 
 input,
-textarea{
+textarea {
     margin-left: auto;
     margin-right: auto;
     width: 600px;
@@ -12,32 +12,57 @@ textarea{
     padding: 7px;
     color: black;
 
- 
+
 }
 
 .form-name,
 .form-phone,
 .form-email,
-.form-message{
+.form-message {
     margin: 0 0 0 0;
     margin-top: 15px;
 }
 
 
 
-.contact-form_title{
+.contact-form_title {
     font-size: 1.75em;
     padding-bottom: 10px;
 }
 
-.contact-form_button{
+.contact-form_button {
     border: 1px solid lightgrey;
     padding: 5px;
     width: 200px;
     margin-top: 15px;
 }
 
-.formError{
+.formError {
     color: red;
     padding: 5px 0 0 15px;
+}
+
+@media (min-width: 280px) {
+
+    .contact-form_container {
+        margin-bottom: 100px;
+    }
+
+    .contact-form_title {
+        text-align: center;
+    }
+
+    .contact-form_container {
+        display: flex;
+        flex-direction: column;
+       
+        align-items: center;
+    }
+
+    input,
+    textarea {
+        width: 350px;
+    }
+
+
 }
