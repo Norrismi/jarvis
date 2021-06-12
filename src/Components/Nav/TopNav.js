@@ -14,7 +14,8 @@ const TopNav = () => {
             </button>
             <a className="navbar-brand" href="/">
 
-                {/* <img className=" nav-bar_big-logo" src={big_logo} alt='site logo and alternative home button' /> */}
+                {/* <img className=" nav-bar_big-logo" src="15 Jarvis Creek" alt='site logo and alternative home button' /> */}
+                <a class="navbar-brand justify-content-center" href="#/">15 Jarvis Creek Ln.</a>
 
             </a>
             <div className="collapse navbar-collapse" id="navbarTogglerDemo01">

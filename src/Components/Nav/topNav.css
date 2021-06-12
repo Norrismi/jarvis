@@ -15,13 +15,25 @@ a.navbar-brand {
    background-color: #e3f2fd !important;
 } */
 
+/* .navbar-header {
+    float: left;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+}
 
 .nav-bar_big-logo{
     max-width: 400%;
    
 }
 
-@media (min-width: 50px) {
+
+.nav-bar_big-logo{
+    max-width: 400%;
+   
+} */
+
+/* @media (min-width: 50px) {
  
     .nav-bar_big-logo{
         display: none;
@@ -34,4 +46,4 @@ a.navbar-brand {
         display: inline;
     }
 
-}
+} */

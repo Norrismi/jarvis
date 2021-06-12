@@ -38,3 +38,11 @@ a.paragraph_read-link:hover{
     }
 
 }
+
+@media (min-width: 300px) {
+    .paragraph_intro,
+    .paragraph_expanded{
+        width: 305px;
+    }
+
+}

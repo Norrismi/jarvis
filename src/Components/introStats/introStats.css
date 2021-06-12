@@ -1,13 +1,13 @@
-.home_stat-container-two{
+.home_stat-container-two {
     margin-bottom: 20px;
 }
 
-.home_stat-title{
+.home_stat-title {
     margin: 50px 0 20px 0;
     font-size: 18px;
 }
 
-.stat-two-row{
+.stat-two-row {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -15,7 +15,7 @@
 }
 
 
-.stat_container{
+.stat_container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -26,27 +26,72 @@
 }
 
 @media (min-width: 280px) {
-   
-    .stat-two-row{
-      
+
+    .stat-two-row {
         flex-direction: column;
-    
         width: 200px;
         justify-content: center;
     }
 
-    .stat_container{
-     
+    .stat_container {
+
         flex-direction: row;
         justify-content: space-between;
         width: 345px;
         margin: 20px 0 20px 0;
         font-size: 18px;
-       
     }
 
-    .home_stat-container-two{
+    .home_stat-container-two {
         padding-left: 5px;
-     
+    }
+
+}
+
+@media (min-width: 300px) {
+
+    .stat-two-row {
+        flex-direction: column;
+        justify-content: center;
+        width: 200px;
+    }
+    
+    .stat_container {
+        width: 300px;
+        margin: 20px 0 20px 0;
+        font-size: 14px;
+    }
+
+    .home_stat-container-two {
+        margin-left: 5px;
+    }
+
+}
+
+@media (min-width: 320px) {
+
+
+    .stat-two-row {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .stat-column{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .stat_container {
+        width: 300px;
+        margin: 20px 0 20px 0;
+        font-size: 14px;
+    }
+
+    .home_stat-container-two {
+        /* margin-left: 50px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }

@@ -10,3 +10,27 @@
     height: 300px;
     width: auto;
 }
+
+@media (min-width: 280px) {
+ 
+    .success_pic{
+        height: auto;
+        width: 300px;
+    }
+
+}
+
+
+@media (min-width: 300px) {
+    .success_container{
+        font-size: 20px;
+   
+    }
+    .success_pic{
+        height: auto;
+        width: 300px;
+    }
+    
+ 
+
+}
