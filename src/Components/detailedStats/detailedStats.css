@@ -44,3 +44,14 @@
     }
 
 }
+
+@media (min-width: 320px) {
+   
+    .home_card{
+        width: 365px;
+     
+    
+    }
+
+
+}

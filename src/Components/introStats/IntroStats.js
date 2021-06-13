@@ -4,7 +4,7 @@ import './introStats.css'
 const IntroStats = () => {
     return (
         <div className="home_stat-container-two">
-            <div className="home_stat-title">
+            <div className="home_stat-title" id='stat_title'>
                 <b>Home Facts</b>
             </div>
             <div className="stat-two-row">
@@ -51,7 +51,7 @@ const IntroStats = () => {
                 </div>
             </div>
 
-            <div className="home_stat-title">
+            <div className="home_stat-title" id='stat_title'>
                 <b>Featured Destination Distances from 15 Jarvis Creek Ln.</b>
             </div>
             <div className="stat-two-row">
@@ -87,8 +87,8 @@ const IntroStats = () => {
 
                     </div>
                     <div className="stat_container">
-                        <div id='stat_name'>Resurrection Church</div>
-                        <div>0.7 miles</div>
+                        <div id='stat_name'>Several Churches With</div>
+                        <div>1 mile</div>
 
                     </div>
                 </div>
