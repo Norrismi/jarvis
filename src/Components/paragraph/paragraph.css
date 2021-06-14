@@ -46,3 +46,12 @@ a.paragraph_read-link:hover{
     }
 
 }
+
+@media (min-width: 700px) {
+
+    .paragraph_expanded,
+    .paragraph_intro{
+        width: 700px;
+    }
+
+}

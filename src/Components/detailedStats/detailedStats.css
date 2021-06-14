@@ -50,8 +50,23 @@
     .home_card{
         width: 365px;
      
-    
+    }
+}
+
+@media (min-width: 700px) {
+
+    .home_card{
+        width: 455px;
+     
     }
 
+}
+
+@media (min-width: 1000px) {
+
+    .home_card{
+        width: 900px;
+     
+    }
 
 }
