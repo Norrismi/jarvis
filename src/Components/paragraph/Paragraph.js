@@ -7,10 +7,11 @@ const Paragraph = () => {
     const [readMore, setReadMore] = useState(false)
 
     const extraContent = <div className='paragraph_expanded'>
-        Tiled kitchen floor with granite countertops and designer
-        appliances round out this open concept main level. Upstairs includes 3 BD, Master BD
-        w/ensuite &amp; walk-in closet. Two covered decks &amp; patio overlook pond w/fountain for
-        your relaxation. Extensive landscape surrounding the home makes it a must see.
+         The spacious open living floor plan is enhanced with hardwood floors and plantation shutters. 
+         The second level includes a master bedroom connected to a private covered deck and a luxury bath/walk in closet. 
+         Accessible to laundry room on second floor for convenience. Oversized garage provides plenty of space for cars, boats or bicycles. 
+         This immaculate home is a must see, and is move in ready.
+
     </div>
 
     const linkName = readMore ? '' : 'Continue Reading';
@@ -20,10 +21,8 @@ const Paragraph = () => {
         <div >
             <div className='paragraph_intro'>
 
-                Experience coastal living in a single family home located in the gated community of Jarvis Creek Club.
-                This home offers brightness with a large spacious
-                living area accented with plantation shutters. Hardwood floors and stairway enhance the
-                homes many features.
+            Welcome to Jarvis Creek Club a gated community where 15 Jarvis Creek Lane is conveniently situated near the front entrance. 
+            This beautiful home offers several upgrades: including kitchen w/tiled floor, granite countertops and SS appliances.
             </div>
 
 

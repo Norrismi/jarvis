@@ -14,7 +14,6 @@ const ContactForm = ({submitForm}) => {
     return (
         <div className="contact-form_container">
             <h4 className="contact-form_title">Send a Comment or Question </h4>
-            {/* <div className="contact-form_subtitle">Send a message to the owners</div> */}
             <form className="contact-form" onSubmit={handleSubmit}>
                 <div className="form-name">
                     <input

@@ -1,5 +1,5 @@
 .home_stat-container-two {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .home_stat-title {
@@ -22,7 +22,6 @@
     width: 375px;
     margin: 20px 0 20px 0;
     font-size: 18px;
-    /* flex: 2 1 auto; */
 }
 
 @media (min-width: 280px) {
