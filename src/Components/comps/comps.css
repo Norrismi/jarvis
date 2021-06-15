@@ -3,7 +3,6 @@
 }
 
 .comps_title{
-
     font-size: 1.5em;
     padding-bottom: 10px;
 }
@@ -123,6 +122,9 @@
 
 @media (min-width: 1000px) {
     
+    .comps_title{
+        text-align: initial;
+    }
     .comps_container{
         width: 950px;
     }

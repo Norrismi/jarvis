@@ -42,10 +42,6 @@
         font-size: 18px;
     }
 
-    /* .home_stat-container-two {
-        padding-left: 5px;
-    } */
-
 }
 
 @media (min-width: 300px) {
@@ -55,16 +51,6 @@
         justify-content: center;
         width: 200px;
     }
-    
-    /* .stat_container {
-        width: 300px;
-        margin: 20px 0 20px 0;
-        font-size: 14px;
-    } */
-
-    /* .home_stat-container-two {
-        margin-left: 5px;
-    } */
 
 }
 
@@ -116,7 +102,8 @@
     }
 
     #stat_title{
-        width: auto;
+       text-align: initial;
+        width: 850px;
     }
     
     .stat-two-row {
@@ -129,6 +116,7 @@
     
     .stat_container {
         width: 375px;
+        text-align: center;
     }
 
     .stat-column{

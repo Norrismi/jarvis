@@ -149,13 +149,29 @@
     }
     .address {
         font-size: 20px;
-        padding-bottom: 20px;
+        margin-bottom: 20px;
     }
     
     .stat_row {
         justify-content: space-between;
         width: 700px;
     
+    }
+    
+
+}
+
+@media (min-width: 1000px) {
+    
+    
+    .address{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        width: 700px;
+        font-size: 22px;
+        margin-bottom: 20px;
+       
     }
     
 

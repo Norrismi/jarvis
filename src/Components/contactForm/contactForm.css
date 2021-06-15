@@ -5,11 +5,7 @@
 .contact-form{
     display: flex;
     flex-direction: column;
-    align-self: baseline;
-
-
   
-
 }
 
 
@@ -127,8 +123,15 @@ textarea {
     }
 
     .contact-form{
+        display: flex;
+        flex-direction: column;
+        justify-content: initial;
+        align-items: initial;
+    }
 
-        justify-content: flex-start;
+    .contact-form_title {
+        text-align: initial;
+        width: 650px;
     }
 
 }

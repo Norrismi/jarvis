@@ -17,8 +17,8 @@ const Home = () => {
 
             <div className='home_intro_container'>
                 <div className="address">
-                    <b>15 Jarvis Creek Lane,</b>
-                    <span id='stat_name'> Hilton Head, SC 29926</span>
+                    <b>15 Jarvis Creek Lane, &nbsp; </b>
+                    <span id='stat_name'>Hilton Head, SC 29926</span>
                 </div>
 
                 <div className="stat_row">
@@ -70,15 +70,15 @@ const Home = () => {
             {/* <Map/> */}
 
 
-            <Paragraph/>
+            <Paragraph />
 
-            <IntroStats/>
+            <IntroStats />
 
-            <DetailedStats/>
+            <DetailedStats />
 
-            <Comps/>
+            <Comps />
 
-            <FormControl/>
+            <FormControl />
 
         </div>
     );
