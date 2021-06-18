@@ -24,6 +24,19 @@
 @media (min-width: 300px) {
     .success_container{
         font-size: 20px;
+        width: 350px;
+    }
+    .success_pic{
+        height: auto;
+        width: 300px;
+    }
+    
+}
+
+@media (min-width: 350px) {
+    .success_container{
+        font-size: 25px;
+        width: 400px;
    
     }
     .success_pic{
@@ -31,6 +44,29 @@
         width: 300px;
     }
     
- 
+}
 
+@media (min-width: 350px) {
+    .success_container{
+        font-size: 25px;
+     
+    }
+    .success_pic{
+        height: auto;
+        width: 300px;
+    }
+    
+}
+
+@media (min-width: 1000px) {
+    .success_container{
+        font-size: 35px;
+        width: 450px;
+   
+    }
+    .success_pic{
+        height: auto;
+        width: 400px;
+    }
+    
 }
