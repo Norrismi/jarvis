@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { db } from '../../firebase'
 import firebase from "firebase/app";
 
@@ -20,13 +20,17 @@ const useForm = (callback, validate) => {
             [name]: value
         });
     };
+    
+
 
     const handleSubmit = e => {
         e.preventDefault();
 
+        console.log(Object.keys(errors))
+
         setErrors(validate(values));
 
-        db.collection('submissions').add({
+        db.collection('submission').add({
             ...values,
             messageSent: firebase.firestore.FieldValue.serverTimestamp()
         })
@@ -35,13 +39,13 @@ const useForm = (callback, validate) => {
         setIsSubmitting(true);
     };
 
-    useEffect(
-        () => {
+    useEffect(() => {
             if (Object.keys(errors).length === 0 && isSubmitting) {
                 callback();
+
             }
         },
-        // [errors]
+        [errors]
     );
 
     return { handleChange, handleSubmit, values, errors };

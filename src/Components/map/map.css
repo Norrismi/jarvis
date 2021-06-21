@@ -1,9 +1,19 @@
-.map_container{
-    height: 500px;
+
+/* .map-container{
+    height: auto;
     width: auto;
 }
 
-.leaflet-container{
-    width: 50%;
-    height: 25%
-}
+
+.map{
+    height: 800px;
+    width: 100%;
+} */
+
+
+.leaflet-container {
+    width: 500px; 
+  }
+
+
+

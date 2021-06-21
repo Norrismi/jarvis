@@ -5,7 +5,7 @@ import IntroStats from '../introStats/IntroStats'
 import DetailedStats from '../detailedStats/DetailedStats'
 import './home.css'
 import FormControl from '../contactForm/FormControl'
-import Map from '../map/Map'
+import LeafletMap from '../map/LeafletMap';
 import Paragraph from '../paragraph/Paragraph'
 
 const Home = () => {
@@ -67,10 +67,11 @@ const Home = () => {
                 </div>
             </div>
 
-            {/* <Map/> */}
 
 
             <Paragraph />
+
+            <LeafletMap/>
 
             <IntroStats />
 
