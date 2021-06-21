@@ -12,10 +12,10 @@ const LeafletMap = () => {
         <MapContainer center={position} zoom={20} scrollWheelZoom={true} style={{height: '500px'}}>
         <TileLayer
   
-        //    url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
     
-          url={provider.maptiler.url}
-          attribution={provider.maptiler.attribution}
+        //   url={provider.maptiler.url}
+        //   attribution={provider.maptiler.attribution}
         />
         <Marker position={position} >
       <Popup>
