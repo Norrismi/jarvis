@@ -43,14 +43,65 @@
         width: 400px;
     }
 
+    
+
 }
 
 @media (min-width: 320px) {
    
     .home_card{
-        width: 365px;
+        width: 320px;
      
     }
+
+    .features-column-one{
+        padding-right: 10px;
+    }
+    
+    .features-column-two{
+        padding-left: 10px;
+        
+    }
+}
+
+@media (min-width: 375px) {
+   
+    .home_card{
+        width: 350px;
+     
+    }
+
+    .features-column-one{
+        width: 375px;
+        padding-right: 10px;
+    }
+    
+    .features-column-two{
+        padding-left: 10px;
+        width: 500px;
+    }
+}
+
+
+/* iphone plus */
+@media (min-width: 411px) {
+   
+    .home_card{
+        width: 375px;
+     
+    }
+
+    .features-column-one{
+        width: 375px;
+        padding-right: 10px;
+    }
+    
+    .features-column-two{
+        padding-left: 10px;
+        width: 500px;
+    }
+
+
 }
 
 @media (min-width: 700px) {

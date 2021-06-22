@@ -1,19 +1,91 @@
 
-/* .map-container{
-    height: auto;
-    width: auto;
-}
-
-
-.map{
-    height: 800px;
-    width: 100%;
-} */
-
-
 .leaflet-container {
-    width: 500px; 
+    width: 300px; 
   }
 
 
+  .map-container{
+    height: 200px;
+    margin-top: 30px;
+  }
 
+
+@media (min-width: 280px) {
+   
+  .leaflet-container {
+    width: 360px; 
+  }
+
+  .map-container{
+    height: 300px
+  }
+
+}
+
+@media (min-width: 320px) {
+  .leaflet-container {
+    width: 320px; 
+  }
+
+  .map-container{
+    height: 300px
+  }
+
+}
+
+@media (min-width: 375px) {
+  .leaflet-container {
+    width: 375px; 
+  }
+
+  .map-container{
+    height: 300px
+  }
+
+}
+
+@media (min-width: 411px) {
+  .leaflet-container {
+    width: 411px; 
+  }
+
+  .map-container{
+    height: 300px
+  }
+
+}
+
+@media (min-width: 411px) {
+  .leaflet-container {
+    width: 414px; 
+  }
+
+  .map-container{
+    height: 300px
+  }
+
+}
+
+@media (min-width: 768px) {
+  .leaflet-container {
+    width: 600px; 
+  }
+
+  .map-container{
+    height: 400px
+  }
+
+
+}
+
+@media (min-width: 1000px) {
+  .leaflet-container {
+    width: 700px; 
+  }
+
+  .map-container{
+    height: 400px
+  }
+
+
+}
