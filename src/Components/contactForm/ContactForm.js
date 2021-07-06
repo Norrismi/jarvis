@@ -3,9 +3,6 @@ import useForm from './useForm'
 import validate from './Validation'
 
 
-
-
-
 const ContactForm = ({submitForm}) => {
 
     const { handleChange, handleSubmit, values, errors } = useForm(submitForm, validate)
