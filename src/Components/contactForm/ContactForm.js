@@ -1,49 +1,7 @@
-// import React from 'react';
-// import emailjs from 'emailjs-com'
-
-// const ContactForm = () => {
-
-//     function sendEmail(e) {
-//         e.preventDefault();
-
-
-//         const YOUR_SERVICE_ID = process.env.REACT_APP_EmailJS_YOUR_SERVICE_ID;
-//         const YOUR_TEMPLATE_ID =  process.env.REACT_APP_EmailJS_YOUR_TEMPLATE_ID;
-//         const YOUR_USER_ID = process.env.REACT_APP_EmailJS_YOUR_USER_ID;
-
-    
-//         emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID')
-//           .then((result) => {
-//               console.log(result.text);
-//           }, (error) => {
-//               console.log(error.text);
-//           });
-//       }
-
-
-
-//     return (
-//         <div>
-            
-//         </div>
-//     );
-// }
-
-// export default ContactForm;
-
-
-
-
-
-
-
-/////////////////////////////////////////////////////////////////
-
-
 import './contactForm.css'
 import useForm from './useForm'
 import validate from './Validation'
-import emailjs from 'emailjs-com'
+
 
 
 
@@ -52,34 +10,11 @@ const ContactForm = ({submitForm}) => {
 
     const { handleChange, handleSubmit, values, errors } = useForm(submitForm, validate)
 
-
-    function sendEmail(e) {
-        e.preventDefault();
-
-
-        const YOUR_SERVICE_ID = process.env.REACT_APP_EmailJS_YOUR_SERVICE_ID;
-        const YOUR_TEMPLATE_ID =  process.env.REACT_APP_EmailJS_YOUR_TEMPLATE_ID;
-        const YOUR_USER_ID = process.env.REACT_APP_EmailJS_YOUR_USER_ID;
-
-    
-        emailjs.sendForm('', '', e.target, '')
-          .then((result) => {
-              console.log(result.text);
-          }, (error) => {
-              console.log(error.text);
-          });
-      }
-
-
     return (
         <div className="contact-form_container">
             <h4 className="contact-form_title">Send a Comment or Question </h4>
             <form className="contact-form" 
-            onSubmit={
-                sendEmail 
-                //handleSubmit
-            }
-            >
+            onSubmit={handleSubmit}>
                 <div className="form-name">
                     <input
                         type="text"
