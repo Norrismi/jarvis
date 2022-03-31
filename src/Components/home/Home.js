@@ -7,10 +7,11 @@ import './home.css'
 import FormControl from '../contactForm/FormControl'
 import LeafletMap from '../map/LeafletMap';
 import Paragraph from '../paragraph/Paragraph'
+import Pdfdownload from '../pdfDownload/PdfDownloads';
 
 const Home = () => {
     return (
-        <div className='home_container'>
+        <div className='home_container' data-testid='home-test'>
             <div className='home_carousel'>
                 <IntroPicsCarousel />
             </div>
@@ -74,6 +75,8 @@ const Home = () => {
             <LeafletMap/>
 
             <IntroStats />
+
+            <Pdfdownload/>
 
             <DetailedStats />
 

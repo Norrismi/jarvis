@@ -8,8 +8,8 @@ import pond from '../../Assets/carouselPics/JarvisCreekP-L.jpeg'
 class introPicsCarousel extends Component {
     render() {
         return (
-            <Carousel className='carousel'>
-                <div>
+            <Carousel className='carousel' >
+                <div data-testid='carousel-test'>
                     <img src={front} alt='one' />
                 </div>
                 <div>
