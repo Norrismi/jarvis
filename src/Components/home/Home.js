@@ -28,7 +28,7 @@ const Home = () => {
                         </div>
                         <div className="price" id='stat_name'>
                             Price
-                            </div>
+                        </div>
                     </div>
                     <div className="bed_container">
                         <div className="bed" id='stat_number'>
@@ -36,7 +36,7 @@ const Home = () => {
                         </div>
                         <div className="bed" id='stat_name'>
                             Beds
-                            </div>
+                        </div>
                     </div>
                     <div className="bath_container">
 
@@ -46,7 +46,7 @@ const Home = () => {
                         </div>
                         <div className="bath" id='stat_name'>
                             Baths
-                            </div>
+                        </div>
                     </div>
 
                     <div className="square-feet_container">
@@ -56,14 +56,18 @@ const Home = () => {
                         </div>
                         <div className="square_feet" id='stat_name'>
                             Sq Ft
-                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
             <Paragraph />
-            <LeafletMap/>
+            <LeafletMap />
             <IntroStats />
-            <Pdfdownload/>
+
+            <div className='home_carousel'>
+                <Pdfdownload />
+            </div>
+            
             <DetailedStats />
             <Comps />
             <FormControl />

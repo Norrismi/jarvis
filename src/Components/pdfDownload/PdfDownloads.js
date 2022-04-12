@@ -1,16 +1,35 @@
 import React from 'react';
-import pdf from '../../Assets/Jarvis Creek Neighborhood .pdf'
+import { Carousel } from 'react-responsive-carousel';
+import Neighborhood from '../../Assets/infoPics/Neighborhood .png'
+import IncludedFeat from '../../Assets/infoPics/IncludedFeatures.png'
+import IncludedFeatInt from '../../Assets/infoPics/IncludedFeaturesInterior .png'
+import PlotMap from '../../Assets/infoPics/plotMap.png'
+import './PdfStyles.css'
+
 
 const Pdfdownload = () => {
     return (
         <div>
 
-            <a href=' #' target="_blank" download={pdf}>
-                <button>
-                    PDF of House Info
-                </button>
-            </a>
+            <div className="carouselInfo-title" >
+                <b>Original Neighborhood Brochure and Maps</b>
+            </div>
+            <Carousel className='carouselInfo'  >
+                <div data-testid='carousel-test'>
+                    <img src={IncludedFeat} alt='one' />
+                </div>
+                <div data-testid='carousel-test'>
+                    <img src={IncludedFeatInt} alt='one' />
+                </div>
+                <div data-testid='carousel-test'>
+                    <img src={Neighborhood} alt='one' />
+                </div>
+                <div data-testid='carousel-test'>
+                    <img src={PlotMap} alt='one' />
+                </div>
+            </Carousel>
         </div>
+
     );
 }
 
