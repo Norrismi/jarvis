@@ -7,7 +7,7 @@ import './home.css'
 import FormControl from '../contactForm/FormControl'
 import LeafletMap from '../map/LeafletMap';
 import Paragraph from '../paragraph/Paragraph'
-import Pdfdownload from '../pdfDownload/PdfDownloads';
+import InfoPictures from '../infoPictures/infoPictures';
 
 const Home = () => {
     return (
@@ -63,11 +63,7 @@ const Home = () => {
             <Paragraph />
             <LeafletMap />
             <IntroStats />
-
-            <div className='home_carousel'>
-                <Pdfdownload />
-            </div>
-            
+            <InfoPictures />
             <DetailedStats />
             <Comps />
             <FormControl />
