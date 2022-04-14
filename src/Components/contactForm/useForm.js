@@ -41,12 +41,12 @@ const useForm = (callback, validate) => {
             phone,
         }
 
-        emailjs.send(data.service, data.template, templateParams, data.user)
-            .then((result) => {
-                console.log(result.text);
-            }, (error) => {
-                console.log(error.text);
-            });
+        // emailjs.send(data.service, data.template, templateParams, data.user)
+        //     .then((result) => {
+        //         console.log(result.text);
+        //     }, (error) => {
+        //         console.log(error.text);
+        //     });
 
 
 
