@@ -10,7 +10,7 @@ const Comps = () => {
 
             <div className="comps_cards-container">
                 {Data.map(property => (
-                    <a className="card comps_card"
+                    <a key={property.id} className="card comps_card"
                         target="_blank"
                         rel="noreferrer"
                         href={property.href}>

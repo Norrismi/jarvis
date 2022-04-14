@@ -23,15 +23,16 @@ const useForm = (callback, validate) => {
     };
 
 
-
     const handleSubmit = e => {
         e.preventDefault();
 
         const { name, phone, email, message } = values
 
-        const YOUR_SERVICE_ID = process.env.REACT_APP_EmailJS_YOUR_SERVICE_ID;
-        const YOUR_TEMPLATE_ID = process.env.REACT_APP_EmailJS_YOUR_TEMPLATE_ID;
-        const YOUR_USER_ID = process.env.REACT_APP_EmailJS_YOUR_USER_ID;
+        let data = {
+            service: process.env.REACT_APP_EmailJS_YOUR_SERVICE_ID,
+            template: process.env.REACT_APP_EmailJS_YOUR_TEMPLATE_ID,
+            user: process.env.REACT_APP_EmailJS_YOUR_USER_ID,
+        }
 
         let templateParams = {
             name,
@@ -40,7 +41,7 @@ const useForm = (callback, validate) => {
             phone,
         }
 
-        emailjs.send(YOUR_SERVICE_ID, YOUR_TEMPLATE_ID, templateParams, YOUR_USER_ID)
+        emailjs.send(data.service, data.template, templateParams, data.user)
             .then((result) => {
                 console.log(result.text);
             }, (error) => {

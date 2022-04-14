@@ -14,10 +14,6 @@ const InfoPictures = () => {
             <div className='infoPictures-title-container'>
                 <b className=''>Original Neighborhood Brochure and Maps</b>
             </div>
-
-
-           
-
                 <Carousel className='infoPictures-carousel'  >
                     <div data-testid=''>
                         <img src={IncludedFeat} alt='one' />
