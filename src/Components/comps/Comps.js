@@ -8,9 +8,9 @@ const Comps = () => {
         <div className="comps_container">
             <h4 className="comps_title">Nearby Similar Homes</h4>
 
-            <div className="comps_cards-container">
+            <div className="comps_cards-container row">
                 {Data.map(property => (
-                    <a key={property.id} className="card comps_card"
+                    <a key={property.id} className="card comps_card col-12 col-sm-12 col-md-4 col-lg-4 "
                         target="_blank"
                         rel="noreferrer"
                         href={property.href}>

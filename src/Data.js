@@ -1,8 +1,9 @@
 
 import jarvis17 from './Assets/comps/jarvis17.jpg'
-import jarvis87 from './Assets/comps/87Jarvis.jpg'
+import jarvis11 from './Assets/comps/11JarvisCreekWay.jpg'
 import jarvis28 from './Assets/comps/28JarvisCreekLN.jpg'
 import jarvis58 from './Assets/comps/58JarvisCreekLane.png'
+import creek9 from './Assets/comps/9CreekLandingPlace.jpg'
 
 const Data = [
 
@@ -28,14 +29,25 @@ const Data = [
     },
     {
         id: 3,
-        href: "https://www.zillow.com/homedetails/17-Jarvis-Creek-Ln-Hilton-Head-Island-SC-29926/2075310809_zpid/",
-        src: jarvis17,
-        price: '$555,555',
+        href: "https://www.zillow.com/homedetails/11-Jarvis-Creek-Way-Hilton-Head-Island-SC-29926/98872990_zpid/",
+        src: jarvis11,
+        price: '$589,000',
         beds: "3 Beds" ,
         baths: "3 Bath" ,
-        sqft: "2,310 Sq Ft.",
-        address: "15 Main Street, Hilton Head Island, SC 29926" ,
+        sqft: "2,018 Sq Ft.",
+        address: "11 Jarvis Creek Way, Hilton Head Island, SC 29926" ,
     },
+    {
+        id: 4,
+        href: "https://www.zillow.com/homes/9-Creek-Landing-Trce-Hilton-Head-Island,-SC-29926_rb/2086154776_zpid/",
+        src: creek9,
+        price: '$649,000',
+        beds: "3 Beds" ,
+        baths: "3 Bath" ,
+        sqft: "1,882 Sq Ft.",
+        address: "9 Creek Landing Trce, Hilton Head Island, SC 29926" ,
+    },
+
 
 ]
 

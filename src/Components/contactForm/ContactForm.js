@@ -9,7 +9,7 @@ const ContactForm = ({submitForm}) => {
 
     return (
         <div className="contact-form_container">
-            <h4 className="contact-form_title">Send a Comment or Question </h4>
+            <h4 className="contact-form_title">Submit Your Offer</h4>
             <form className="contact-form" 
             onSubmit={handleSubmit}>
                 <div className="form-name">
@@ -50,11 +50,11 @@ const ContactForm = ({submitForm}) => {
                         name="message"
                         value={values.message}
                         onChange={handleChange}
-                        placeholder="I'd like to know more about 15 Jarvis Creek Lane."
+                        placeholder="Submit your offer or ask a question"
                         rows="5"
                     ></textarea>
                 </div>
-                <button className="contact-form_button " type="submit">Ask a Question</button>
+                <button className="contact-form_button " type="submit">Submit Offer</button>
             </form>
         </div>
     );
