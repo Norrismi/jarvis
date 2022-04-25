@@ -1,8 +1,7 @@
 
-import jarvis17 from './Assets/comps/jarvis17.jpg'
 import jarvis11 from './Assets/comps/11JarvisCreekWay.jpg'
-import jarvis28 from './Assets/comps/28JarvisCreekLN.jpg'
-import jarvis58 from './Assets/comps/58JarvisCreekLane.png'
+import jarvis28 from './Assets/comps/28JC.jpg'
+import jarvis58 from './Assets/comps/58JC.jpg'
 import creek9 from './Assets/comps/9CreekLandingPlace.jpg'
 
 const Data = [
