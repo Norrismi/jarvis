@@ -72,7 +72,7 @@ const IntroStats = () => {
                         <div>1.9 miles</div>
 
                     </div>
-            
+
                 </div>
                 <div className="stat-column">
 
@@ -87,7 +87,7 @@ const IntroStats = () => {
 
                     </div>
                     <div className="stat_container">
-                        <div id='stat_name'>Several Churches With</div>
+                        <div id='stat_name'>Several Churches Within</div>
                         <div>1 mile</div>
 
                     </div>

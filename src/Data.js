@@ -9,9 +9,9 @@ const Data = [
 
     {
         id: 1,
-        href: "https://www.zillow.com/homedetails/28-Jarvis-Creek-Ct-Hilton-Head-Island-SC-29926/98844634_zpid/",
+        href: "https://www.realtor.com/realestateandhomes-detail/M6410636745",
         src: jarvis28,
-        price: '$489,900',
+        price: '$600,000',
         beds: "3 Beds" ,
         baths: "3 Bath" ,
         sqft: "2,310 Sq Ft.",
