@@ -24,7 +24,7 @@ const Home = () => {
                     <div className="price_container">
 
                         <div className="price" id='stat_number'>
-                            <b>$550,000</b>
+                            <b>$609,900</b>
                         </div>
                         <div className="price" id='stat_name'>
                             Price
